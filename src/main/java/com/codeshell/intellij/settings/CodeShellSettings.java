@@ -26,7 +26,7 @@ public class CodeShellSettings implements PersistentStateComponent<Element> {
     private boolean saytEnabled = true;
     private boolean cpuRadioButtonEnabled = true;
     private boolean gpuRadioButtonEnabled = false;
-    private String serverAddressURL = "http://127.0.0.1:8080";
+    private String serverAddressURL = "http://192.168.1.2:1234/v1/chat/completions";
     private TabActionOption tabActionOption = TabActionOption.ALL;
     private CompletionMaxToken completionMaxToken = CompletionMaxToken.MEDIUM;
     private ChatMaxToken chatMaxToken = ChatMaxToken.MEDIUM;
